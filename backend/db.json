@@ -1,0 +1,20 @@
+{
+  "doctor": [
+    {
+      "id": 6,
+      "name": "esprit",
+      "surname": "esprit",
+      "description": "kjdsfhksjdfsdkfs",
+      "etat": false,
+      "domaine": "ttttt"
+    },
+    {
+      "id": 7,
+      "name": "ali",
+      "surname": "ali",
+      "description": "ali",
+      "etat": false,
+      "domaine": "ali"
+    }
+  ]
+}

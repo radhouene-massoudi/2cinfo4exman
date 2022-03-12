@@ -1,0 +1,14 @@
+<p>showonedoctor works!</p>
+<div *ngIf="d.etat==true" [style.background-color]="'green'" >
+  {{ d.name}}
+{{ d.surname}}
+  <input type="submit" value="delete" (click)="sendIdToparent(d.id)">
+
+
+</div>
+<div *ngIf="d.etat==true" [style.background-color]="'red'" >
+
+  {{ d.name}}
+  {{ d.surname}}
+  <input type="submit" value="delete" (click)="sendIdToparent(d.id)">
+</div>

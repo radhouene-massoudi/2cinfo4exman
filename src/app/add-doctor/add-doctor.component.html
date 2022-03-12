@@ -1,0 +1,23 @@
+<p>add-doctor works!</p>
+<form #f="ngForm">
+  <label>id</label>
+  <input type="number" name="id" ngModel>
+  <label>name</label>
+  <input type="text" name="name" ngModel required #n="ngModel">
+  <div *ngIf="n.invalid">
+    required
+  </div>
+  <label>surname</label>
+  <input type="text" name="surname" ngModel>
+  <label>des</label>
+  <input type="text" name="description" ngModel>
+  <label>etat</label>
+  <input type="text" name="etat" ngModel >
+  <label>domaien</label>
+  <input type="text"  name="domaine" ngModel minlength="10" #d="ngModel">
+  <div *ngIf="d.invalid">
+    minlengtjgkugjughy
+  </div>
+  <input type="submit" value="save" (click)="savedata(f.value)">
+
+</form>
